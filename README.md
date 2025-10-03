@@ -1,17 +1,33 @@
-# lab4
+# Отчёт по практическому занятию №4
+## Выполнил: Лазарев Г.С. 
+## Группа: ЭФБО-10-23
 
-A new Flutter project.
+## Скриншоты
 
-## Getting Started
+<img width="428" height="933" alt="2025-10-03_09-47-44" src="https://github.com/user-attachments/assets/d7f9053a-4c2e-45a8-8258-47d5b5f3410e" /><img width="430" height="927" alt="2025-10-03_09-47-54" src="https://github.com/user-attachments/assets/69bcad5e-d9c4-46e9-b475-d9ccad4142d8" /><img width="407" height="920" alt="2025-10-03_09-48-00" src="https://github.com/user-attachments/assets/950508ca-7293-4a8e-8725-63649aaf1af9" />
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# pcs_lab4
+---
+
+## Использованные виджеты
+
+| Виджет         | Назначение |
+|----------------|------------|
+| **Scaffold**   | Основной каркас приложения. |
+| **AppBar**     | Заголовок с названием практики. |
+| **Column**     | Вертикальная компоновка элементов (текст + кнопки). |
+| **Text**       | Отображение значения счётчика (`Значение счётчика: $counter`). |
+| **ElevatedButton** | Кнопки «Увеличить» и «Сбросить». |
+| **Container**  | Стилизация кнопок (фон, скруглённые углы). |
+| **Padding**    | Внешние отступы для всей `Column` (16 px). |
+| **SizedBox**   | Вертикальные промежутки: 30 px между текстом и кнопкой, 20 px между кнопками. |
+
+---
+
+## Обновление состояния
+- Использован **StatefulWidget**.  
+- Переменная состояния:  
+  ```dart
+  int counter = 0;
